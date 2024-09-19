@@ -48,9 +48,9 @@ spec:
           env:
             - name: "POSTGRES_USER"
               valueFrom:
-              secretKeyRef:
-                name: postgrescreds
-                key: user
+                secretKeyRef:
+                  name: postgrescreds
+                  key: user
             - name: "POSTGRES_PASSWORD"
               valueFrom:
                 secretKeyRef:
