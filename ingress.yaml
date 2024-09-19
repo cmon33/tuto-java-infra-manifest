@@ -5,7 +5,7 @@ metadata:
   name: forge-mi-ingress-base
 spec:
   rules:
-    - host: crt-cm.apps.dso-formation.hp.numerique-interieur.com
+    - host: crtcm.apps.dso-formation.hp.numerique-interieur.com
       http:
         paths:
           - path: /
